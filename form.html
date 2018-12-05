@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BMI tool</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Slabo+27px');
+</style>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <header class="container">
+        <h1>BMI tool</h1>
+    </header>
+        <div class = "tree">
+
+        </div>
+            <div class="container">
+            <form id="userInfo" method="post" action="" class="basic-grey">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id gravida dolor. Quisque sodales fermentum aliquam. Aenean sollicitudin risus ligula, ut ultrices lacus semper ut. Etiam ornare laoreet purus et ultrices. Fusce malesuada feugiat nunc lobortis pellentesque. Aliquam quis arcu efficitur, aliquam mi semper, posuere dolor. Integer maximus id ligula et tempus. Mauris non dolor placerat, dapibus dui sed, feugiat erat. Morbi lacinia felis a nisi fringilla, at convallis massa varius. Curabitur rhoncus cursus fermentum. Vestibulum mollis tortor eget ligula tincidunt lobortis. Aenean quis gravida risus.
+
+                    <p>
+                        <label for="weight">Height</label>
+                        <input type="text" id="weight" size="2">
+                        <select name="weight" id="units">
+
+                            <option value="lbs">lbs</option>
+                            <option value="kg">kg</option>
+                        </select>
+
+
+                        <br>
+                        <span id="weightError" class="error">&nbsp;</span>
+                    </p>
+
+                        <div class="col-12">
+                        <label for="height">Height</label>
+                        <input type="text" id="height"> Or feet
+            <select name="ft" id="ft">
+				<option value=""></option>
+				<option value="4">4'</option>
+				<option value="5">5'</option>
+				<option value="6">6'</option>
+				<option value="7">7'</option>
+			</select>
+            <select name="h_in" id="in">
+				<option value=""></option>
+				<option value="0">0"</option>
+				<option value="1">1"</option>
+				<option value="2">2"</option>
+				<option value="3">3"</option>
+				<option value="4">4"</option>
+				<option value="5">5"</option>
+				<option value="6">6"</option>
+				<option value="7">7"</option>
+				<option value="8">8"</option>
+				<option value="9">9"</option>
+				<option value="10">10"</option>
+				<option value="11">11"</option>
+
+			</select>
+                        <span id="heightError" class="error">&nbsp;</span>
+
+            </div>
+                    <p>
+                        <input type="submit" id="Submit" value="Submit" class="button">
+                        <br>
+                        <span id="SubmitError" class="error">&nbsp;</span>
+                    </p>
+                </fieldset>
+                <div class="col-md-12">
+                    <h3> <span id="result" class="result">&nbsp;</span> </h3>
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>

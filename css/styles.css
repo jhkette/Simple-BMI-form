@@ -1,0 +1,28 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.tree{
+    height: 35rem;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+width: 100%;
+background-image: url('../media/tree.jpg');
+background-position: top;
+
+
+
+}
+
+h1{
+    font-family: 'Slabo 27px', serif;
+    font-size: 7rem;
+    border-bottom: 3px dashed #1a1a1a;
+    width: 25rem;
+    text-align: center;
+}
